@@ -1,0 +1,17 @@
+{
+  "title": "Gatsby en Français",
+  "description": "Lancez votre prochain grand projet Gatsby avec ce défaut-starter-intl. Ce démarreur barebones est livré avec les principaux fichiers de configuration Gatsby dont vous pourriez avoir besoin.",
+  "author": "@wiziple",
+  "hello": "Bonjour",
+  "welcome": "Bienvenue sur ton nouveau Gatsby site.",
+  "title_page2": "Page deux",
+  "hello_page2": "Salut de la page 2",
+  "go_page2": "Aller à la page 2",
+  "build": "Maintenant faisons quelque chose de génial.",
+  "welcome_page2": "Bienvenue sur 2",
+  "go_back": "Retournez à la page d'accueil",
+  "notfound": {
+    "header": "Pas trouvé",
+    "description": "Vous venez de frapper une route qui n'existe pas ... C'est triste."
+  }
+}
