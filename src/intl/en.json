@@ -10,6 +10,8 @@
   "build": "Now go build something great.",
   "welcome_page2": "Welcome to page 2",
   "go_back": "Go back to the homepage",
+  "go_jap_page": "Japanese",
+  "go_jap": "/japanese",
   "notfound": {
     "header": "NOT FOUND",
     "description": "You just hit a route that doesn't exist... the sadness."

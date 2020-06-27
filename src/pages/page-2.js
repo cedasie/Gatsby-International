@@ -14,7 +14,7 @@ const SecondPage = ({ intl }) => (
       <FormattedMessage id="welcome_page2" />
     </p>
     <a
-      href="#"
+      href="/"
       onClick={e => {
         e.preventDefault()
         navigate("/")

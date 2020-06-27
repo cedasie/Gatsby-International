@@ -1,5 +1,4 @@
 import React from "react"
-import { Link as LinkGab } from "gatsby"
 import { FormattedMessage, Link, useIntl } from "gatsby-plugin-intl"
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -26,11 +25,14 @@ const IndexPage = () => {
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <LinkGab to="/japonais/">Japonais</LinkGab> <br />
+      <Link to={intl.formatMessage({ id: "go_jap" })}>
+        <FormattedMessage id="go_jap_page" />
+      </Link>
+      <br />
       <Link to="/page-2/">
         <FormattedMessage id="go_page2" />
       </Link>
+      <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </Layout>
   )

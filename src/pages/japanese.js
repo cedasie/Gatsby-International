@@ -5,7 +5,7 @@ class japonais extends Component {
   render() {
     return (
       <Layout>
-        <div>Bonjour japonais</div>
+        <div>Hello Japanese</div>
       </Layout>
     )
   }
